@@ -264,7 +264,7 @@ public abstract class AbstractParameterRegistrationImpl<T> implements ParameterR
 					if ( ! canHandleMultiParamExtraction ) {
 						// it cannot...
 						throw new UnsupportedOperationException(
-								"Type [" + hibernateType + "] does support multi-parameter value extraction"
+								"Type [" + hibernateType + "] does not support multi-parameter value extraction"
 						);
 					}
 				}
